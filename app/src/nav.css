@@ -1,0 +1,51 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.wrapper{
+    width: 100vw;
+    height: 20vh;
+    background-color:#323334 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  2rem;
+    flex-direction: column;
+    gap: 2rem;
+
+
+}
+.logo-search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2rem;
+
+
+}
+.logo-search .search-input{
+    width: 250px;
+    height: 30px;
+    padding: 0 1rem;
+    font-size: 14px;
+
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.buttons button{
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
